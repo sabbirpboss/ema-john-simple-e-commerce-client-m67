@@ -1,0 +1,20 @@
+.review-item-container {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.cart-container a{
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 10px 25px 10px;
+    cursor: pointer;
+}
+.cart-container a:hover{
+    color: #ddd;
+}

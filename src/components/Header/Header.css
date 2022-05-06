@@ -1,0 +1,30 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.header img{
+    width: 163px;
+    height: 54.55px;
+}
+.header a{
+ color: #ffffff;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: 400;
+ font-style: normal;
+ line-height: 20px;
+ letter-spacing: 0.005em;
+ margin-left: 36px;
+}
+.header a:hover{
+    text-decoration: overline;
+    text-decoration-color: orange;
+}
